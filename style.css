@@ -20,10 +20,24 @@
 }
 #whatsapp{
     color: #25d366;
-
     border-radius: 50%;
 }
 #facebook{
     color: 	#1877F2;
     height: 26px;
+}
+#yasmin{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 400px;
+    gap: 50px;
+
+}
+#yasmin img{
+    width: 450px;
+    height: 500px;
+}
+#tyrant{
+    left: 15%;
 }
