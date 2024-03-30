@@ -1,6 +1,6 @@
 #background{
     margin-top: 90px;
-    margin-bottom: 180px;
+    margin-bottom: 90px;
     text-align: center; 
 }
 #image{
@@ -24,6 +24,9 @@
 #facebook{
     color: 	#1877F2;
     height: 26px;
+}
+#carrosel{
+    margin-top: 30px;
 }
 #yasmin{
     display: flex;
