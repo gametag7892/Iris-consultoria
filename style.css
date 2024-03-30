@@ -1,8 +1,7 @@
 #background{
     margin-top: 90px;
     margin-bottom: 180px;
-    text-align: center;
-    
+    text-align: center; 
 }
 #image{
     width: 1349px;
@@ -31,13 +30,53 @@
     justify-content: center;
     width: 1000px;
     height: 400px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 50px;
+}
+#title{
+    display: none;
+}
+#subtitle{
+    display: none;
+}
 
-}
-#yasmin img{
-    width: 450px;
-    height: 500px;
-}
+
 #tyrant{
-    left: 15%;
+    
+}
+
+@media (max-width: 677px) {
+    #pq_eu{
+        display: block; 
+    }
+    #mobile p{
+        display: unset;
+    }
+    #mobile h5{
+        display: unset;
+    }
+    #widescreen p{
+        display: none;
+    }
+    #widescreen h5{
+        display: none;
+    }
+    #yasmin{
+       width: 634px;
+    }
+    #title{
+        display: flex;
+    }
+    #subtitle{
+        display: flex;
+    }
+    #card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+
+    
 }

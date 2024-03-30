@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg border-bottom border-body" style="background-color: #5E6FA7;">
+    <nav id="navbar" class="navbar navbar-expand-lg border-bottom border-body" style="background-color: #5E6FA7;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="imagens/logo_simplified.png" style="width: 90px; height: 80px;"alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,8 +33,8 @@
               </ul>
             </div>
         </div>
-       <div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <div id="redes">
+        <div id="network">
           <ul class="navbar-nav gap-2">
             <li class="nav-item">
               <a class="nav-link text-white" style="font-size: 30px;" href="https://instagram.com"><i id="instagram" class="fa-brands fa-instagram"></i></a>
@@ -56,7 +56,7 @@
       <p id="p" class="display-6" style="text-align: center; font-size: 18pt;">Nós damos todo o suporte que sua empresa precisa.</p>
     </div>
     <div id="pq_eu">
-      <div class="card" style="width: 18rem;">
+      <div class="card" id="card" style="width: 18rem;">
         <img src="imagens/HandShake.jpg" alt=>
         <div class="card-body">
           <h5>Cartão com funcionalidades</h5>
@@ -64,7 +64,7 @@
           <a href="#" class="btn btn-primary stretched-link">Entre em contato</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" id="card" style="width: 18rem;">
         <img src="imagens/reunion.jpg" alt=>
         <div class="card-body">
           <h5>Cartão com funcionalidades</h5>
@@ -72,7 +72,7 @@
           <a href="#" class="btn btn-primary stretched-link">Entre em contato</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" id="card" style="width: 18rem;">
         <img src="imagens/reunion.jpg" alt=>
         <div class="card-body">
           <h5>Cartão com funcionalidades</h5>
@@ -108,8 +108,12 @@
 
       <div class="carousel-item active" id="tyrant">
         <div id="yasmin">
-          <img src="imagens/yasmin.jpeg">
-          <div>
+          <img src="imagens/yasmin.jpeg" >
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -119,7 +123,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/chefona.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -129,7 +137,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/chiquinha.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -139,7 +151,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/fernanda.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -149,7 +165,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/giovanna.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -159,7 +179,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/julia.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -169,7 +193,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/fofão.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -179,7 +207,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/joaõ.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -189,9 +221,13 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/Larinha.jpeg">
-          <div>
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
           </div>
         </div>
       </div>
@@ -199,7 +235,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/Sheilla.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -209,7 +249,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/suellen.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -219,7 +263,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/doido.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
@@ -229,7 +277,11 @@
       <div class="carousel-item" id="tyrant">
         <div id="yasmin">
           <img src="imagens/maicon.jpeg">
-          <div>
+          <div id="mobile" class="carousel-caption d-none d-md-block">
+            <h5 id="title">First slide label</h5>
+            <p id="subtitle">Some representative placeholder content for the first slide.</p>
+          </div>
+          <div id="widescreen">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
