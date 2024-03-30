@@ -43,7 +43,10 @@
 #subtitle{
     display: none;
 }
-
+#hamburger{
+    color: white;
+    font-size: 30px;
+}
 @media (max-width:990px){
     #pq_eu{
         display: block; 
