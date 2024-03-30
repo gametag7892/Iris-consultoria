@@ -41,20 +41,15 @@
     display: none;
 }
 
-
-#tyrant{
-    
-}
-
-@media (max-width: 677px) {
+@media screen and (min-width: 500px) and (max-width:900px){
     #pq_eu{
         display: block; 
     }
     #mobile p{
-        display: unset;
+        display:block;
     }
     #mobile h5{
-        display: unset;
+        display:block;
     }
     #widescreen p{
         display: none;
@@ -63,20 +58,36 @@
         display: none;
     }
     #yasmin{
-       width: 634px;
+        gap: 0px;
+        width: auto;
     }
-    #title{
-        display: flex;
+    #yasmin img{
+        margin-left: auto;
+        margin-right: auto;
     }
-    #subtitle{
-        display: flex;
+    #widescreen p{
+        display: none;
+    }
+    #widescreen h5{
+        display: none;
     }
     #card{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
     }
-
-
-    
+    #instagram{
+        display: none;
+    }
+    #whatsapp{
+        display: none;
+    }
+    #facebook{
+        display: none;
+    }
+    #card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
 }
