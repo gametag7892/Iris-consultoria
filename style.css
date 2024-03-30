@@ -47,6 +47,13 @@
     color: white;
     font-size: 30px;
 }
+#maps{
+   text-align: center;
+}
+#maps iframe{
+    width: 95%;
+    height: 400px;
+}
 @media (max-width:990px){
     #pq_eu{
         display: block; 
