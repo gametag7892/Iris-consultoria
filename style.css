@@ -1,6 +1,7 @@
+
 #background{
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     text-align: center; 
 }
 #image{
@@ -54,6 +55,43 @@
     width: 95%;
     height: 400px;
 }
+#content-aboutus{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+#content-aboutus h2{
+    text-align:center;
+    padding-top: 20px;
+    color: white;
+}
+
+#team{
+    width: 600px;
+    height: 300px;
+}
+
+#aboutus{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+#aboutus p{
+    text-align: justify;
+    width: 900px;
+    height: 100px;
+    padding: 30px;
+    color: white;
+}
+#aboutus-text{
+    justify-content: center;
+    background-color: #5E6FA7;
+}
+
 @media (max-width:990px){
     #pq_eu{
         display: block; 

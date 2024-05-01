@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/3a517e8153.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body>
     <nav id="navbar" class="navbar navbar-expand-lg border-bottom border-body" style="background-color: #5E6FA7;">
@@ -296,9 +297,44 @@
       </button>
     </div>
   </div>
+
+  <div id="content-aboutus">
+    <div id="aboutus">
+      <img id="team" alt="">
+      <div id="aboutus-text">
+        <h2>Sobre Nós</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero quos totam facilis iure excepturi. Consequatur distinctio id qui similique reprehenderit est possimus tempore commodi. Repellat commodi autem ab libero aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea numquam itaque temporibus veniam in quidem perferendis neque porro sit consequatur! Provident deserunt ab, optio magnam odio cumque eos voluptate eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, reiciendis? Soluta, illum? Odio officiis, facere, placeat nam alias a voluptatum nobis numquam consequatur ratione eos? Tempore rem a maxime dolore.</p>
+      </div>
+      </div>
+  </div>
+
   <div id="maps">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.428463400624!2d-48.28198402597328!3d-18.91241990742765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a445ad32e79a03%3A0x6db768d7d15fc4cc!2sESAMC%20Uberl%C3%A2ndia!5e0!3m2!1spt-PT!2sbr!4v1711802652215!5m2!1spt-PT!2sbr"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
+  <script>
+    
+    $("#pq_eu").hide();
+    $("#carouselExampleDark").hide();
+    $("#maps").hide();
 
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 0 && $(this).scrollTop() < 1250){
+        $("#pq_eu").fadeIn(3000);
+      }
+    })
+
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 250 && $(this).scrollTop() < 1250){
+        $("#carouselExampleDark").fadeIn(4000);
+      }
+    })
+
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 700 && $(this).scrollTop() < 1250){
+        $("#maps").fadeIn(5000);
+      }
+    })
+  </script>
+  
 </body>
 </html>
