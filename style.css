@@ -108,6 +108,13 @@
     #bellow-text{
         display: block;
         text-align: center;
+
+    }
+    #bellow-text p{
+        display: block;
+        text-align: center;
+        padding-bottom: 50px;
+        width: 400px;
     }
     #bellow-text img{
         text-align: center;
