@@ -3,6 +3,16 @@
     margin: 100px;
     text-align: center; 
 }
+
+#bellow-text{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 40px;
+}
+#bellow-text h5{
+    padding: 20px;
+}
 #image{
     width: 1349px;
     height: 400px;
