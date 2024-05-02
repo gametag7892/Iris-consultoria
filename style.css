@@ -2,7 +2,11 @@
     padding-top: 50px;
     text-align: center;
     animation-duration: 2s;
-
+}
+#Participantes{
+    animation-duration: 1s;
+	animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
 #carouselExampleDark{
     margin: 50px;
@@ -180,14 +184,11 @@
     #paraTelefone{
         display: block;
         background-color: #5E6FA7;
-    }
-    #paraTelefone h1{
-        background-color: #5E6FA7;
-        color: white;
-        text-align: center;
+        border-radius: 10px;
+        padding: 30px;
     }
     #paraTelefone p{
-        text-align: center;
+        text-align: justify;
         color: white;
     }
 }
