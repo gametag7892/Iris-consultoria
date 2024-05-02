@@ -7,7 +7,7 @@
 #bellow-text{
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     padding: 40px;
 }
 #bellow-text h5{
@@ -95,6 +95,12 @@
         padding-top: 100px;
         margin: 0px;
         text-align: center; 
+    }
+    #bellow-text{
+        display: block;
+        justify-content: center;
+        gap: 100px;
+        padding: 40px;
     }
     #pq_eu{
         display: block; 
