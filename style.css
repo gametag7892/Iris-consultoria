@@ -1,5 +1,5 @@
 #background{
-    padding-top: 10px;
+    padding-top: 50px;
     text-align: center;
     animation-duration: 2s;
 
@@ -7,7 +7,9 @@
 #carouselExampleDark{
     margin: 50px;
 }
-
+#paraTelefone{
+    display: none;
+}
 #bellow-text{
     display: flex;
     text-align: center;
@@ -54,6 +56,10 @@
     margin-right: auto;
     gap: 50px;
 }
+#slide-content h5{
+    padding-top: 10px;
+}
+
 #title{
     display: none;
 }
@@ -67,11 +73,6 @@
 #maps{
    text-align: center;
    color: white;
-}
-#maps iframe{
-    width: 85%;
-    height: 400px;
-    padding: 20px;
 }
 #content-aboutus{
     margin-top: 100px;
@@ -144,6 +145,7 @@
     #slide-content{
         gap: 0px;
         width: auto;
+        color: white;
     }
     #slide img{
         margin-left: auto;
@@ -173,6 +175,19 @@
         text-align: justify;
         width: 100%;
         height: auto;
+        color: white;
+    }
+    #paraTelefone{
+        display: block;
+        background-color: #5E6FA7;
+    }
+    #paraTelefone h1{
+        background-color: #5E6FA7;
+        color: white;
+        text-align: center;
+    }
+    #paraTelefone p{
+        text-align: center;
         color: white;
     }
 }
