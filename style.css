@@ -9,7 +9,7 @@
     animation-iteration-count: infinite;
 }
 #carouselExampleDark{
-    margin: 30px;
+    margin: 50px;
 }
 #paraTelefone{
     display: none;
@@ -19,7 +19,8 @@
     text-align: center;
     justify-content: center;
     gap: 50px;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 #bellow-text h5{
     padding: 10px;
@@ -49,7 +50,7 @@
     border-color: blueviolet;
 }
 #carrosel{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 #slide-content{
@@ -74,6 +75,10 @@
 #hamburger{
     color: white;
     font-size: 30px;
+}
+#maps{
+   text-align: center;
+   color: white;
 }
 #content-aboutus{
     margin-top: 100px;
@@ -192,10 +197,10 @@
         text-align: justify;
         color: white;
     }
-    #slide-content h5{
-        display: none;
-    }
     #slide-content p{
+        display: none;
+    } 
+    #slide-content h2{
         display: none;
     }
 }
