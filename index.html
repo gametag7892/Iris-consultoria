@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/3a517e8153.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <nav id="navbar" class="navbar navbar-expand-lg border-bottom border-body" style="background-color: #5E6FA7;">
@@ -37,25 +38,25 @@
           </div>
        </div>
     </nav>
-    <div class="" id="background">
+    <div class="animate__animated animate__zoomIn" id="background">
       <div class="" id="text" >
-        <h1 class="display-1" style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">A visão que você precisa para <br> o seu negócio!</h1>
+        <h1 class="display-1" style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >A visão que você precisa para <br> o seu negócio!</h1>
       </div>
       <p id="p" class="display-6" style="text-align: center; font-size: 18pt;">Nós damos todo o suporte que sua empresa precisa.</p>
 
       <div id="bellow-text">
-        <div>
+        <div id="point1">
           <img src="imagens/Eficiência.png">
           <h5 style="text-align: center;">Eficiência</h5>
           <p>A Íris Consultoria tem profissionais de diversas áreas, prontos para atender de maneira eficiente.</p>
         
         </div>
-        <div>
+        <div id="point2">
           <img src="imagens/Compromisso.png">
           <h5 style="text-align: center;">Compromisso</h5>
           <p class="card-text">Nosso compromisso com sua empresa é oferecer um serviço personalizado para resolver seus problemas.</p>
         </div>
-        <div>
+        <div id="point3">
             <img src="imagens/Profissionalismo.png">
             <h5 style="text-align: center;">Profissionalismo</h5>
             <p class="card-text">Nossa equipe é capacitada para a melhor qualidade de atendimento.</p>
@@ -64,27 +65,27 @@
       
     </div>
     <div id="pq_eu">
-      <div class="card" id="card" style="width: 20rem;">
-        <img src="imagens/Eficiencia.jpg" alt=>
+      <div class="card" id="card1" style="width: 20rem;">
+        <img src="imagens/0750fdd2-e23f-4c02-948c-e1a58b9c404c.jpg" alt=>
         <div class="card-body">
-          <h5>Eficiência</h5>
-          <p class="card-text">A Íris Consultoria tem profissionais de diversas áreas, prontos para atender de maneira eficiente.</p>
+          <h5>Rebranding</h5>
+          <p class="card-text">Atualmente, a internet é uma ferramenta de Marketing indiscutivelmente poderosa. A Íris tem profissionais capacitados para atender a suas demandas.</p>
           <a href="#" class="btn btn-primary stretched-link">Fale conosco!</a>
         </div>
       </div>
-      <div class="card" id="card" style="width: 20rem;">
-        <img src="imagens/Compromisso 1.jpg" alt=>
+      <div class="card" id="card2" style="width: 20rem;" >
+        <img src="imagens/4e68a738-3812-433e-8911-29603dcc86ec.jpg" alt=>
         <div class="card-body">
-          <h5>Compromisso</h5>
-          <p class="card-text">Nosso compromisso com sua empresa é oferecer um serviço personalizado para resolver seus problemas.</p>
+          <h5>Consultoria de Marketing Digital</h5>
+          <p class="card-text">Atualmente, a internet é uma ferramenta de Marketing indiscutivelmente poderosa. A Íris tem profissionais capacitados para atender a suas demandas.</p>
           <a href="#" class="btn btn-primary stretched-link">Fale conosco!</a>
         </div>
       </div>
-      <div class="card" id="card" style="width: 20rem;">
+      <div class="card" id="card3" style="width: 20rem;">
         <img src="imagens/profissionalismo (1).jpg" alt=>
         <div class="card-body">
-          <h5>Profissionalismo</h5>
-          <p class="card-text">Nossa equipe é capacitada para a melhor qualidade de atendimento.</p>
+          <h5>Assistência Jurídica</h5>
+          <p class="card-text">Nós auxiliamos empresários a lidar com problemas jurídicos com uma equipe especializada em Direito.</p>
           <a href="#" class="btn btn-primary stretched-link" >Fale conosco!</a>
         </div>
       </div>
@@ -392,15 +393,15 @@
 
     $("#sobre").click(function() {
 
-    /* Captura o elemento que desejamos ir */
+
     $("#content-aboutus").show(); 
-    /*
+    
     var target = $($("#content-aboutus"));
 
     $('html, body').animate({
       scrollTop: target.offset().top //Captura a posição do elemento
     }, 1); //Tempo de animação em milissegundos
-    */
+    
     
     });
 
@@ -408,7 +409,7 @@
 
     $(window).scroll(function(){
       if($(this).scrollTop() > 10 && $(this).scrollTop() < 1250){
-        $("#pq_eu").fadeIn(2000);
+        $("#pq_eu").slideDown(1000);
       }
     })
 
