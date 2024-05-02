@@ -1,5 +1,5 @@
 #background{
-    padding-top: 50px;
+    padding-top: 100px;
     text-align: center;
     animation-duration: 2s;
 }
@@ -19,11 +19,12 @@
     text-align: center;
     justify-content: center;
     gap: 50px;
-    padding: 40px;
+    padding: 100px;
 }
 #bellow-text h5{
     padding: 10px;
     text-align: center;
+    color: #5E6FA7;
 }
 #bellow-text p{
     width: 300px;
@@ -45,10 +46,10 @@
     justify-content: center;
     gap: 100px;
     padding: 30px;
-    
+    border-color: blueviolet;
 }
 #carrosel{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #slide-content{
@@ -74,10 +75,6 @@
     color: white;
     font-size: 30px;
 }
-#maps{
-   text-align: center;
-   color: white;
-}
 #content-aboutus{
     margin-top: 100px;
     margin-bottom: 100px;   
@@ -102,12 +99,16 @@
     height: auto;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 30px;
+    
     color: white;
 }
 #aboutus-text{
     justify-content: center;
     background-color: #5E6FA7;
+}
+#button{
+    background-color: #5E6FA7;
+    border-color:#5E6FA7;
 }
 @media (max-width:890px){
     #background{
@@ -190,5 +191,11 @@
     #paraTelefone p{
         text-align: justify;
         color: white;
+    }
+    #slide-content h5{
+        display: none;
+    }
+    #slide-content p{
+        display: none;
     }
 }
