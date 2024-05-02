@@ -1,17 +1,20 @@
 #background{
     padding-top: 50px;
-    margin: 10px;
     text-align: center; 
 }
 
 #bellow-text{
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     padding: 40px;
 }
 #bellow-text h5{
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bellow-text p{
+    width: 300px;
     text-align: center;
 }
 
